@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    /* padding:10px; */
+    background-color: #0D7B77;
+   padding: 30px;
+   color: white;
+}
+.logo img{
+    width: 50px;
+}
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.banner-container{
+    height:90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.banner-title{
+    font-size:76px;
+    font-weight: bold;
+    color: #0D7B77;
+}
+button{
+    padding:10px 20px;
+    font-size:20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+.appt-btn{
+    background-color: #00CA9A;
+}
+.doctor-btn{
+    background-color: #0D7B77;
+}
+.banner-img img{
+    width: 100%;
+}
+.description{
+    font-size:20px;
+    padding: 10px;
+}
+.service-card{
+    width:300px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    border-radius:5px;
+}
+.service-img img{
+    width:150px
+}
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 30px;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+form{
+    /* box-shadow: 8px 8px 20px gray; */
+    text-align: center;
+    padding:20px;
+
+}
+.input-box{
+    padding:20px 30px;
+    width: 30%;
+    margin: 10px;
+
+}
+.input-message{
+padding:35px 50px;
+width: 30%;
+margin: 10px;
+}
+
+/* this is footer design part */
+footer{
+    width: 100%;
+    height: 70vh;
+    background-color:#0D7B77;
+
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,800&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,100;0,200;1,600&family=Roboto:ital,wght@0,400;0,500;0,900;1,100;1,400;1,900&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif; */
+}
+ .title {
+        color: #43fec8d9;
+        font-size: 60px;
+        font-weight: 700;
+        font-style: italic;
+        text-align: left;
+        background: linear-gradient(to top,red,green);
+      }
+      .description {
+        color: chocolate;
+        line-height: 1.5em;
+      }
+      #test {
+        color: blue;
+      }
+      p {
+        color: cyan;
+      }
+      p {
+        color: goldenrod;
+      }
+
+
+      .test{
+        padding: 50;
+        background-color: red;
+        border: 1px solid black;
+        width: 50%;
+        margin: auto;
+      }
+      .child{
+        padding: 20px;
+        background-color:green;
+        width: 50%;
+        height:100vh;
+      }
+      .first{
+      width: 200px;
+      height:150px;
+      background-color: green;
+    float: left;
+      }
+      .second{
+        width: 200px;
+      height:150px;
+      background-color: blue;
+      float: left;
+      }
+    
+    .box{
+        width:200px;
+        height: 150px;
+        border: 1px solid black;
+        /* margin: 5px; */
+        font-size: 25px;
+    }
+
+    .container{
+        display: flex;
+        justify-content:center;
+        gap: 10px;
+        flex-direction: row-reverse;
+        height: 100vh;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .box1{
+        background-color: blue;
+        position:absolute;
+        /* z-index: -1; */
+    }
+    .box2{
+        background-color: red;
+       position: fixed;
+       
+    }
+    .box3{
+        background-color: green;
+        margin-top: 20px;
+    }
+
+    .green{
+        width: 450px;
+        background-color:green;
+        height:250px;
+        margin: 50px;
+        position: absolute;
+    }
+    .red{
+        width:120px;
+        height: 120px;
+        background-color:red;
+        border-radius: 60px;
+        position: relative;
+        top: 32%;
+        left: 32%;
+    }
+
